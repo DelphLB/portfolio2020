@@ -1,0 +1,50 @@
+.theme {
+  display: flex;
+  flex-direction: column;
+}
+
+.toggleKnob.isActive {
+  width: 34px;
+  height: 33px;
+  display: block;
+  border-radius: 50%;
+  line-height: 35px;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  margin-left: 1px;
+}
+
+.toggleKnob {
+  width: 34px;
+  height: 33px;
+  display: block;
+  border-radius: 50%;
+  line-height: 35px;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  margin-left: 25px;
+}
+
+.toggleContainer {
+  width: 61px;
+  height: 36px;
+  border-radius: 30px;
+  background-color: #111113;
+  outline: none;
+  border: none;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+
+.mode {
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.mode p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}

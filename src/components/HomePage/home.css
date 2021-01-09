@@ -1,7 +1,6 @@
 .home {
-  height: 1200px;
+  min-height: 100vh;
   margin: none;
-  color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -9,6 +8,7 @@
 
 .presentation {
   display: flex;
+  margin: 150px;
 }
 
 .presentationText {
@@ -40,4 +40,10 @@
 .links {
   text-transform: uppercase;
   font-family: monospace;
+  list-style-type: none;
+  text-align: right;
+}
+
+a:link {
+  text-decoration: none;
 }

@@ -1,0 +1,32 @@
+.PageProjet {
+  min-height: 100vh;
+  margin: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ProjetList {
+  display: flex;
+  flex-direction: column;
+}
+
+.PageProjet .theme {
+  margin-top: -40%;
+}
+
+.PageProjet .links {
+  margin-top: -5%;
+}
+
+.ContainerP {
+  width: 900px;
+  background-color: rgba(76, 36, 157, 0.351);
+}
+
+.ContainerP img {
+  width: 400px;
+}
+
+.ContainerP img:nth-child(1) {
+  margin-left: 16%;
+}

@@ -6,8 +6,22 @@
   justify-content: space-around;
 }
 .ProjetList {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  margin: 2%;
+  grid-gap: 10px;
+  width: 60%;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 3;
+  grid-row: 2;
+}
+.three {
+  grid-column: 1;
+  grid-row: 3;
 }
 
 .PageProjet .theme {
@@ -19,14 +33,16 @@
 }
 
 .ContainerP {
-  width: 900px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
   background-color: rgba(76, 36, 157, 0.351);
 }
 
-.ContainerP img {
-  width: 400px;
+.DescriptionP {
+  grid-row: 1;
 }
 
-.ContainerP img:nth-child(1) {
-  margin-left: 16%;
+.ContainerP img {
+  width: 200px;
 }

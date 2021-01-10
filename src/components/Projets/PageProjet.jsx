@@ -16,7 +16,7 @@ function PageProjet() {
       <div className='PageProjet'>
         <ThemeButton />
         <div className='ProjetList'>
-          <div>
+          <div className='one'>
             <ProjetContainer
               image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
               name='patate'
@@ -24,7 +24,7 @@ function PageProjet() {
               link='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
             />
           </div>
-          <div className='ProjetListBi'>
+          <div className='two'>
             <ProjetContainer
               image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
               name='patate'
@@ -32,7 +32,7 @@ function PageProjet() {
               link='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
             />
           </div>
-          <div>
+          <div className='three'>
             <ProjetContainer
               image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
               name='patate'

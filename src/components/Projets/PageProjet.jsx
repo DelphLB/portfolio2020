@@ -20,7 +20,7 @@ function PageProjet() {
               image={festoch}
               name='BILLETERIE FESTIVAL'
               headline='Projet fictif en équipe de 5 personnes'
-              description='Festoch-Fastoch est un site vous permettant de découvrir de nouveaux festivals selon leurs genres et de réserver vos billets'
+              description='Festoch-Fastoch est un site vous permettant de découvrir de nouveaux festivals selon le style muscial et de réserver vos billets'
               tools='React.js, Node.js, Express, MySQL Workbench, Postman'
               link='https://festochfastoch.herokuapp.com/'
             />
@@ -30,7 +30,7 @@ function PageProjet() {
               image={Ridy}
               name='RIDY'
               headline='Hackaton de 24h sur le thème "Retour vers le futur" en équipe 5 de personnes'
-              description='Ridy est une une application vous permettant de trouver le cheval le plus proche de chez vous'
+              description='Le "Drivy du Moyen-Age", Ridy est une une application vous permettant de trouver et de réserver le cheval le plus proche de chez vous'
               tools='React.js, Node.js, Express, MySQL Workbench, Postman, API Google Maps'
               link='https://ridy.herokuapp.com/'
             />
@@ -39,8 +39,8 @@ function PageProjet() {
             <ProjetContainer
               image={john}
               name='JONATHAN PAK - SPORT'
-              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement'
-              description='Application permettant aux coachs sportifs de créer et de communiquer des programmes sportifs sur-mesures à leurs clients ainsi que suivre leur progression'
+              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement \ '
+              description='Application permettant aux coachs sportifs de créer et de communiquer des programmes personnalisés à leurs clients ainsi que de suivre leurs progrès'
               tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman'
             />
           </div>

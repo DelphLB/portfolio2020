@@ -39,6 +39,7 @@
   border: 1px solid rgb(56, 56, 56);
   z-index: 1;
   position: relative;
+  opacity: 0.6;
 }
 
 .ContainerP:hover {
@@ -48,6 +49,7 @@
 
 .ContainerP:hover img {
   filter: grayscale(0);
+  opacity: 1;
 }
 
 .ContainerP img {
@@ -117,5 +119,14 @@
     flex-direction: column;
     font-size: 14px;
     margin-bottom: 10%;
+  }
+
+  .ContainerP {
+    background-color: rgba(32, 15, 41, 0.596);
+    border: 1px solid rgb(56, 56, 56);
+    z-index: 1;
+    position: relative;
+    opacity: 1;
+    margin-top: 2%;
   }
 }

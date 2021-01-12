@@ -6,7 +6,7 @@ import {
 } from "../reusables/contexts/Theme";
 import ThemeButton from "../reusables/contexts/ThemeButton";
 import ProjetContainer from "./ProjetsContainer";
-import Ridy from "../../assets/Ridy.png";
+import Ridy from "../../assets/ridy.png";
 import festoch from "../../assets/festoch.png";
 import john from "../../assets/john.png";
 import Links from "../reusables/Links";

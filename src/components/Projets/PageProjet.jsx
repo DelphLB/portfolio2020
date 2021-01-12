@@ -1,9 +1,6 @@
 import React, { useContext } from "react";
 import "./pageprojet.css";
-import {
-  ThemeContext,
-  ThemeContextProvider,
-} from "../reusables/contexts/Theme";
+import { ThemeContext } from "../reusables/contexts/Theme";
 import ThemeButton from "../reusables/contexts/ThemeButton";
 import ProjetContainer from "./ProjetsContainer";
 import Ridy from "../../assets/ridy.png";

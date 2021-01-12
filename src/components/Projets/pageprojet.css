@@ -36,14 +36,14 @@
 
 .ContainerP {
   background-color: rgba(32, 15, 41, 0.596);
-  border: 1px solid black;
+  border: 1px solid rgb(56, 56, 56);
   z-index: 1;
   position: relative;
 }
 
 .ContainerP:hover {
   background-color: rgba(79, 79, 79, 0.742);
-  border: 1px solid black;
+  border: 1px solid rgb(39, 39, 39);
 }
 
 .ContainerP:hover img {

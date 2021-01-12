@@ -12,12 +12,18 @@ function Links() {
         <Link to='/projets'>Projets/></Link>
       </li>
       <li>
-        <a href='https://www.linkedin.com/in/delphinelbn/' target='_blank'>
+        <a
+          href='https://www.linkedin.com/in/delphinelbn/'
+          target='_blank'
+          rel='noopener noreferrer'>
           Linkedin/>
         </a>
       </li>
       <li>
-        <a href='https://github.com/DelphLB' target='_blank'>
+        <a
+          href='https://github.com/DelphLB'
+          target='_blank'
+          rel='noopener noreferrer'>
           GitHub/>
         </a>
       </li>

@@ -39,7 +39,7 @@ function PageProjet() {
             <ProjetContainer
               image={john}
               name='JONATHAN PAK - SPORT'
-              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement \ '
+              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement  '
               description='Application permettant aux coachs sportifs de créer et de communiquer des programmes personnalisés à leurs clients ainsi que de suivre leurs progrès'
               tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman'
             />

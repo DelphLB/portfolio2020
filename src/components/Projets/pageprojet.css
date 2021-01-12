@@ -45,6 +45,7 @@
 .ContainerP:hover {
   background-color: rgba(79, 79, 79, 0.742);
   border: 1px solid rgb(39, 39, 39);
+  opacity: 1;
 }
 
 .ContainerP:hover img {

@@ -6,7 +6,9 @@ import {
 } from "../reusables/contexts/Theme";
 import ThemeButton from "../reusables/contexts/ThemeButton";
 import ProjetContainer from "./ProjetsContainer";
-import "../../assets/ridy.png";
+import Ridy from "../../assets/Ridy.png";
+import festoch from "../../assets/festoch.png";
+import john from "../../assets/john.png";
 import Links from "../reusables/Links";
 
 function PageProjet() {
@@ -18,26 +20,31 @@ function PageProjet() {
         <div className='ProjetList'>
           <div className='one'>
             <ProjetContainer
-              image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
-              name='patate'
-              description=' patate'
-              link='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
+              image={festoch}
+              name='BILLETERIE FESTIVAL'
+              headline='Projet fictif en équipe de 5 personnes'
+              description='Festoch-Fastoch est un site vous permettant de découvrir de nouveaux festivals selon leurs genres et de réserver vos billets'
+              tools='React.js, Node.js, Express, MySQL Workbench, Postman'
+              link='https://festochfastoch.herokuapp.com/'
             />
           </div>
           <div className='two'>
             <ProjetContainer
-              image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
-              name='patate'
-              description=' patate'
-              link='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
+              image={Ridy}
+              name='RIDY'
+              headline='Hackaton de 24h sur le thème "Retour vers le futur" en équipe 5 de personnes'
+              description='Ridy est une une application vous permettant de trouver le cheval le plus proche de chez vous'
+              tools='React.js, Node.js, Express, MySQL Workbench, Postman, API Google Maps'
+              link='https://ridy.herokuapp.com/'
             />
           </div>
           <div className='three'>
             <ProjetContainer
-              image='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
-              name='patate'
-              description=' patate'
-              link='https://www.goktepeliler.com/attachments/goktepeliler-17-png.100438/'
+              image={john}
+              name='JONATHAN PAK - SPORT'
+              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement'
+              description='Application permettant aux coachs sportifs de créer et de communiquer des programmes sportifs sur-mesures à leurs clients ainsi que suivre leur progression'
+              tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman'
             />
           </div>
         </div>

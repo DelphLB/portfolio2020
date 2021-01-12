@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./components/HomePage/Home";
 import PageProjet from "./components/Projets/PageProjet";
 import { ThemeContextProvider } from "./components/reusables/contexts/Theme";
-import "./app.css";
+import "./App.css";
 function App() {
   return (
     <ThemeContextProvider>

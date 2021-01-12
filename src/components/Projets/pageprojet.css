@@ -37,7 +37,6 @@
 .ContainerP {
   background-color: rgba(32, 15, 41, 0.694);
   border: 1px solid black;
-  opacity: 70%;
   z-index: 1;
   position: relative;
 }

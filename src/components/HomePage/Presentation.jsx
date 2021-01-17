@@ -5,7 +5,7 @@ import logo from "../../assets/logo.png";
 function Presentation() {
   return (
     <div className='presentation'>
-      <img src={logo} alt='logo' />
+      <img src={logo} alt='delphinelblogo' />
 
       <div className='presentationText'>
         <h1>Bonjour, bienvenue</h1>

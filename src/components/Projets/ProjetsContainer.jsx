@@ -10,7 +10,9 @@ function ProjetsContainer(props) {
         <p>{props.description}</p>
         <p>{props.tools}</p>
         <a href={props.link} target='_blank' rel='noopener noreferrer'>
-          Découvrir le projet />
+          {props.link == null
+            ? "En cours de développement />"
+            : "Découvrir le projet />"}
         </a>
       </div>
     </div>

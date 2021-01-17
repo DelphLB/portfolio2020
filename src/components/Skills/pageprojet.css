@@ -16,12 +16,12 @@
   align-items: center;
   justify-content: space-around;
 }
+
 .ProjetList {
   display: grid;
   margin-top: 2%;
-
-  grid-gap: 20px 20px;
-  width: 60%;
+  grid-gap: 30px 60px;
+  width: 62%;
   margin-bottom: 2%;
 }
 .one {

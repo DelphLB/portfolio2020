@@ -12,6 +12,10 @@ function Links() {
         <Link to='/projets'>Projets/></Link>
       </li>
       <li>
+        <Link to='/competences'>Compétences/></Link>
+      </li>
+
+      <li>
         <a
           href='https://www.linkedin.com/in/delphinelbn/'
           target='_blank'

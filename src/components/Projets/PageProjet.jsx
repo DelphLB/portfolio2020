@@ -7,6 +7,7 @@ import Ridy from "../../assets/ridy.png";
 import festoch from "../../assets/festoch.png";
 import john from "../../assets/john.png";
 import Links from "../reusables/Links";
+import cookeat from "../../assets/cookeat.png";
 
 function PageProjet() {
   const [theme] = useContext(ThemeContext);
@@ -15,7 +16,27 @@ function PageProjet() {
       <div className='PageProjet'>
         <ThemeButton />
         <div className='ProjetList'>
+          <div className='scrol'>SCROLL DOWN /> </div>
           <div className='one'>
+            <ProjetContainer
+              image={john}
+              name='JONATHAN PAK - SPORT'
+              headline='Projet pour un client coach sportif en équipe de 5 personnes  '
+              description='Application permettant aux coachs sportifs de créer et de communiquer des programmes personnalisés à leurs clients ainsi que de suivre leurs progrès'
+              tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman'
+            />
+          </div>
+          <div className='two'>
+            <ProjetContainer
+              image={cookeat}
+              name='COOK&lsquo;EAT - LIVE CULINAIRES'
+              headline='Projet gagnant - Hackaton de 48h sur le thème "Créer du lien en période de confinement" organisé par Ekino et la Wild Code School '
+              description='COOK&lsquo;EAT est une application permettant à ses utilisateurs de partager leurs meilleures recettes de cuisines et d&lsquo;organiser des lives culinaires'
+              tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman, Twilio, Firebase'
+              link='https://cook-eat.netlify.app/'
+            />
+          </div>
+          <div className='three'>
             <ProjetContainer
               image={festoch}
               name='BILLETERIE FESTIVAL'
@@ -25,7 +46,7 @@ function PageProjet() {
               link='https://festochfastoch.herokuapp.com/'
             />
           </div>
-          <div className='two'>
+          <div className='four'>
             <ProjetContainer
               image={Ridy}
               name='RIDY'
@@ -33,15 +54,6 @@ function PageProjet() {
               description='Le "Drivy du Moyen-Age", Ridy est une une application vous permettant de trouver et de réserver le cheval le plus proche de chez vous'
               tools='React.js, Node.js, Express, MySQL Workbench, Postman, API Google Maps'
               link='https://ridy.herokuapp.com/'
-            />
-          </div>
-          <div className='three'>
-            <ProjetContainer
-              image={john}
-              name='JONATHAN PAK - SPORT'
-              headline='Projet pour un client coach sportif en équipe de 5 personnes / en cours de développement  '
-              description='Application permettant aux coachs sportifs de créer et de communiquer des programmes personnalisés à leurs clients ainsi que de suivre leurs progrès'
-              tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman'
             />
           </div>
         </div>

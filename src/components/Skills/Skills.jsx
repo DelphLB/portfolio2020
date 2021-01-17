@@ -18,7 +18,7 @@ function Skills() {
             <SkillsContainer
               name='DEVELOPPEMENT WEB FULLSTACK'
               headline='React / NodeJS'
-              description='Formation de 6 mois à la Wild Code School de Bordeaux - 5 projets faits en équipes + 1 portfolio développé seule'
+              description='Formation de 5 mois à la Wild Code School de Bordeaux - 5 projets faits en équipes + 1 portfolio développé seule'
               tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, REST API, Postman, GitHub, TDD, Figma'
             />
           </div>

@@ -31,7 +31,7 @@ function PageProjet() {
               image={cookeat}
               name='COOK&lsquo;EAT - LIVES CULINAIRES'
               headline='Projet gagnant - Hackathon de 48h sur le thème "Créer du lien en période de confinement" organisé par Ekino et la Wild Code School '
-              description='COOK&lsquo;EAT est une application permettant à ses utilisateurs de partager leurs meilleures recettes de cuisines et d&lsquo;organiser des lives culinaires'
+              description='COOK&lsquo;EAT est une application permettant à ses utilisateurs de partager leurs meilleures recettes de cuisine et d&lsquo;organiser des lives culinaires'
               tools='React.js, Redux, Node.js, Express, JWT, MySQL, Workbench, Postman, Twilio, Firebase'
               link='https://cook-eat.netlify.app/'
             />

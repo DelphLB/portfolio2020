@@ -60,6 +60,15 @@ a:link {
   text-decoration: none;
 }
 
+li {
+  margin-bottom: 8%;
+}
+
+.links li:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+
 @media screen and (max-width: 850px) {
   .links {
     text-transform: uppercase;

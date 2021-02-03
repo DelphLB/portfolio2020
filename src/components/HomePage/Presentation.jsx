@@ -7,7 +7,7 @@ function Presentation() {
     <div className='presentation'>
       <img src={logo} alt='delphinelblogo' />
 
-      <div className='presentationText'>
+      <div className='presentation-text'>
         <h1>Bonjour, bienvenue</h1>
         <h2>Je m'appelle Delphine</h2>
         <p> Développeuse FullStack React/Node.js /> </p>

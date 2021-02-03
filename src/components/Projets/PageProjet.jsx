@@ -13,9 +13,9 @@ function PageProjet() {
   const [theme] = useContext(ThemeContext);
   return (
     <div className={theme}>
-      <div className='PageProjet'>
+      <div className='page-projet'>
         <ThemeButton />
-        <div className='ProjetList'>
+        <div className='projet-list'>
           <div className='scrol'>SCROLL DOWN /> </div>
           <div className='one'>
             <ProjetContainer

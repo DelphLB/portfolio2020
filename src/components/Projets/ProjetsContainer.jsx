@@ -2,9 +2,9 @@ import React from "react";
 
 function ProjetsContainer(props) {
   return (
-    <div className='ContainerP'>
+    <div className='container-p'>
       <img src={props.image} alt={props.name} className='ImageProjet' />
-      <div className='DescriptionP'>
+      <div className='description-p'>
         <h2>{props.name}</h2>
         <h3>{props.headline}</h3>
         <p>{props.description}</p>

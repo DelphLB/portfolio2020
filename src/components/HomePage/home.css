@@ -12,24 +12,24 @@
   margin: 80px;
 }
 
-.presentationText {
+.presentation-text {
   display: flex;
   text-align: center;
   flex-direction: column;
   font-family: "Poppins" sans-serif;
 }
 
-.presentationText h1 {
+.presentation-text h1 {
   font-size: 70px;
   font-weight: 100;
 }
 
-.presentationText h2 {
+.presentation-text h2 {
   font-size: 55px;
   font-weight: 100;
 }
 
-.presentationText p {
+.presentation-text p {
   font-size: 25px;
   font-weight: 100;
   color: #6053ff;
@@ -88,17 +88,17 @@ li {
     justify-content: space-around;
   }
 
-  .presentationText h1 {
+  .presentation-text h1 {
     font-size: 50px;
     font-weight: 100;
   }
 
-  .presentationText h2 {
+  .presentation-text h2 {
     font-size: 35px;
     font-weight: 100;
   }
 
-  .presentationText p {
+  .presentation-text p {
     font-size: 18px;
     font-weight: 100;
     color: #4236a5;

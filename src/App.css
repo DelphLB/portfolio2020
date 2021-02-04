@@ -12,15 +12,57 @@ html {
   cursor: url("./assets/icons8-tap-80\ \(1\).png"), pointer;
 }
 .dark .toggleContainer {
-  background-color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f9f8fd,
+    #f3f1fb,
+    #eeeaf8,
+    #e9e3f6,
+    #e5def4,
+    #e2d8f3,
+    #ded3f1,
+    #dacef0,
+    #d5c9ef,
+    #d1c4ee,
+    #ccbfed
+  );
 }
 
 .light .toggleContainer.isActive {
-  background-color: #111113;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #030102,
+    #060205,
+    #080308,
+    #09040c,
+    #0a0510,
+    #0a0613,
+    #0a0716,
+    #0c081a,
+    #0d091d,
+    #0e0b20,
+    #0e0c24
+  );
 }
 
 .dark .toggleKnob {
-  background-color: #111113;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #030102,
+    #060205,
+    #080308,
+    #09040c,
+    #0a0510,
+    #0a0613,
+    #0a0716,
+    #0c081a,
+    #0d091d,
+    #0e0b20,
+    #0e0c24
+  );
 }
 
 .light .toggleKnob.isActive {
@@ -29,7 +71,21 @@ html {
 
 .dark {
   text-align: center;
-  background-color: #111113;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #030102,
+    #060205,
+    #080308,
+    #09040c,
+    #0a0510,
+    #0a0613,
+    #0a0716,
+    #0c081a,
+    #0d091d,
+    #0e0b20,
+    #0e0c24
+  );
   color: #ffffff;
   outline: #ffffff;
   outline: white;
@@ -38,13 +94,27 @@ html {
 
 .light {
   text-align: center;
-  background-color: rgb(235, 235, 235);
-  color: #111113;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #f9f8fd,
+    #f3f1fb,
+    #eeeaf8,
+    #e9e3f6,
+    #e5def4,
+    #e2d8f3,
+    #ded3f1,
+    #dacef0,
+    #d5c9ef,
+    #d1c4ee,
+    #ccbfed
+  );
+  color: #161121;
   transition: all 1s ease-in;
 }
 
 .light a {
-  color: black;
+  color: #161121;
   transition: all 1s ease-in;
 }
 
